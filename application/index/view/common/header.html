@@ -1,0 +1,119 @@
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<style>
+    .indexBox {width: 100%;height: 100%}
+    .indexBox .bd{height: 490px;}
+    .indexBox .bd ul{height: 490px}
+    .indexBox .bd li {background-size:cover;}
+</style>
+<div class="nav">
+    <div class="war_nav">
+        <div style="width:140%;">
+            <div class="nav_logo">
+                <img src="/img/logo.png">
+            </div>
+            <div class="nav_list">
+                <a href="/">首页</a>
+                {volist name="category" id="vo"}
+                <a href="{eq name="vo.modelid" value="4"}{$vo.shortnote}{else/}/{$vo.etitle}/{/eq}" target="_blank">{$vo.title}</a>
+                {/volist}
+            </div>
+            <diV class="nav_tel">
+                <img src="/img/tel.png">
+                <span>010-80320881</span>
+            </diV>
+        </div>
+    </div>
+</div>
+<div class="bander" style="position: relative;">
+    <div class="indexBox" style="width: 100%;height: 100%">
+        <div class="bd">
+            <ul>
+                <li style="width: 100%;height: 100%;background: url(/img/003.jpg) 100% 100% no-repeat;background-size:cover;"></li>
+                <li style="width: 100%;height: 100%;background: url(/img/002.jpg) 100% 100% no-repeat;background-size:cover;"></li>
+                <li style="width: 100%;height: 100%;background: url(/img/01.jpg) 100% 100% no-repeat;background-size:cover;"></li>
+
+            </ul>
+        </div>
+    </div>
+     <div style="position: absolute;left: 0;right: 0;margin: 0 auto;width: 1200px;top:0"> 
+        <div class="war banner_war ">
+         
+            <div class="banner_m">
+                <div class="banner_menu">
+                    <p>获取您的专属健身计划</p>
+                    <span>
+                        <a href="javascipt:;">
+                            <img src="/img/indexmeun.png">
+                        </a>
+                    </span>
+                </div>
+                <div class="banner_form">
+                    <form name="Y_Form">
+                        <div class="banner_user">
+                            <span>姓名:</span>
+                            <input type="text" class="Y_use" name="name">
+                            <img src="/img/jt.png">
+                        </div>
+                        <div class="banner_age">
+                            <span>性别:</span>
+                            <input type="text" class="Y_age" name="sex">
+                            <span class="m">年龄:</span>
+                            <input type="text" class="Y_nl" name="age">
+                            <img src="/img/jt.png">
+                        </div>
+                        <div class="banner_sg">
+                            <span>身高:</span>
+                            <input type="text" name="height">
+                            <span class="m">体重:</span>
+                            <input type="text" class="Y_tz" name="weight">
+                            <img src="/img/jt.png">
+                        </div>
+                        <div class="banner_user">
+                            <span>电话:</span>
+                            <input type="text" class="Y_tel" name="tel">
+
+                        </div>
+                        <a id="Y_btn" class="banner_btn Y_btn">提交</a>
+                    </form>
+                    <div class="banner_wd">
+                        <a href="#">您可能关心以下问题
+                            <img src="/img/jt.png" alt="">
+                        </a>
+                        <a href="#">如何选择专业学校学习？
+                            <img src="/img/jt.png" alt="">
+                        </a>
+                        <a href="#">学习多久可以正式就业？
+                            <img src="/img/jt.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    jQuery(".indexBox").slide({mainCell:".bd ul",autoPlay:true});
+$('#Y_btn').click(function(){
+	name=$('input[name=name]').val();
+	sex=$('input[name=sex]').val();
+	age=$('input[name=age]').val();
+	height=$('input[name=height]').val();
+	weight=$('input[name=weight]').val();
+	tel=$('input[name=tel]').val();
+	if (!tel){
+		alert('请输入电话');
+		return false;
+	}else{
+		$.post('/common/messagesave',{'name':name ,'sex':sex ,'age':age ,'height':height ,'weight':weight ,'tel':tel },function(data){
+			if (data){
+				alert('留言成功,请等待我们的联系,保持电话畅通');
+			}else{
+				alert('由于网络原因操作失败,请稍后重试')
+			}
+		},'json');
+	}
+
+});
+</script>

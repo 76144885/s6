@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学院信息查询</title>
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="/h/lib/layer/2.4/layer.js"></script>
+    <style>
+       .xueyuanCx .top{position: relative;} 
+       .xueyuanCx .top .xueyuanCx_btn {position: absolute;bottom: 0;left: 0;right: 0;margin: 0 auto;width: 900px;height: 72px;}
+       .xueyuanCx .top .xueyuanCx_btn a {width: 50%;display: block;height: 72px;line-height: 72px; float: left;letter-spacing: 12px;font-size: 30px; color: #fff;text-align: center;}
+/*       .xueyuanCx .top .xueyuanCx_btn .bmxxcx:hover {color: #e62129} 
+       .xueyuanCx .top .xueyuanCx_btn .zsxxcx:hover {color: #00a2e9} */
+    </style>
+</head>
+
+<body>
+    <div class="xueyuanCx">
+        <div class="top">
+            <img src="/img/xy.png" alt="">
+            <div class="xueyuanCx_btn">
+                <a href="javascript:;" class="bmxxcx">报名信息查询</a>
+                <a href="javascript:;" class="zsxxcx">证书信息查询</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <form class="Cx_Form_1" name="form1">
+                <div class="user">
+                    <span>姓名:</span>
+                    <input type="text" class="Cx_user" name="name" id="name1">
+                </div>
+                <div class="numder">
+                    <span>身份证号:</span>
+                    <input type="text" class="Cx_numder" name="idcard" id="idcard1">
+                </div>
+                <div class="user">
+                    <span>电话:</span>
+                    <input type="text" class="Cx_tel" name="tel" id="tel1">
+                </div>
+                <div class="yzm">
+                    <span>验证码:</span>
+                    <input type="text" class="Cx_yzm" name="verify" id="verify1">
+                    <em><img id="verify_img1" src="{:captcha_src()}" alt="验证码" onclick="refreshVerify1()">
+    <a href="javascript:refreshVerify1()">点击刷新</a></em>
+                </div>
+                <div class="btn">
+                    <a href="javascipt:;" class="Cx_btn" id="btn1">查询</a>
+                    <a href="javascipt:;" class="Cx_cz" onClick="resetform(2);">重置</a>
+                </div>
+            </form>
+            <form class="Cx_Form_2" name="form2">
+                <div class="user">
+                    <span>姓名:</span>
+                    <input type="text" class="Cx_user" name="name" id="name2">
+                </div>
+                <div class="numder">
+                    <span>身份证号:</span>
+                    <input type="text" class="Cx_numder" name="idcard" id="idcard2">
+                </div>
+                <div class="serial">
+                    <span>证书编号:</span>
+                    <input type="text" class="Cx_serial" name="zscode" id="zscode2">
+                </div>
+                <div class="yzm">
+                    <span>验证码:</span>
+                    <input type="text" class="Cx_yzm" name="verify" id="verify2">
+                    <em><img id="verify_img" src="{:captcha_src()}" alt="验证码" onclick="refreshVerify()">
+    <a href="javascript:refreshVerify()">点击刷新</a></em>
+                </div>
+                <div class="btn">
+                    <a href="javascipt:;" class="Cx_btn" id="btn2">查询</a>
+                    <a href="javascipt:;" class="Cx_cz" onClick="resetform(2);" >重置</a>
+                </div>
+            </form>
+            <div class="Mc">
+                        <p>本站所有信息归：中力健身学院 版权所有</p>
+            </div>
+        </div>
+
+    </div>
+<script src="/js/common.js"></script>
+<script type="text/javascript">
+    $('.xueyuanCx_btn a').each(function(index){
+        $('.xueyuanCx_btn a').eq(0).css('color','#e62129')
+        $(this).click(function(){
+            $('.xueyuanCx_btn a').css('color','#fff')     
+            if(index ==0) return $(this).css('color','#e62129')
+            if(index ==1) return $(this).css('color','#00a2e9')
+
+        })
+    })
+    function refreshVerify() {
+        var ts = Date.parse(new Date())/1000;
+        var img = document.getElementById('verify_img');
+        img.src = "/captcha?id="+ts;
+    }
+	function refreshVerify1() {
+        var ts = Date.parse(new Date())/1000;
+        var img = document.getElementById('verify_img1');
+        img.src = "/captcha?id="+ts;
+    }
+	function resetform(type){
+		document.getElementById("form"+type).reset();
+	}
+	function getstr(data,type){
+		str+="    <style>";
+		str+="       .xueyuanCx .top{position: relative;} ";
+		str+="       .xueyuanCx .top .xueyuanCx_btn {position: absolute;bottom: 0;left: 0;right: 0;margin: 0 auto;width: 900px;height: 72px;}";
+		str+="       .xueyuanCx .top .xueyuanCx_btn a {width: 50%;display: block;height: 72px;line-height: 72px; float: left;}";
+		str+="       .xueyuanCx .bottom .xq p{ text-align: center;font-size: 20px; line-height: 40px;}";
+		str+="       .xueyuanCx .btnIndex {text-align: center;height: 50px;}";
+		str+="       .xueyuanCx .btnIndex a {display: inline-block;height:40px; line-height: 40px;border-radius:25px; -webkit-border-radius:25px;padding: 0 15px;background: #ee5253;color: #fff;margin: 10px 20px;}";
+		str+="    </style>";
+		str+="    <div class=\'xueyuanCx\'>";
+		str+="        <div class=\'top\'>";
+		str+="            <img src=\'/img/xy2.png\' alt=\'\'>";
+		str+="        </div>";
+		str+="        <div class=\'bottom\' style=\'width:1000px;\'>";
+		str+="            <div class=\'xq\'>";
+		if (type==1){
+			str+="                <p><sapn>姓名：</sapn>"+data.name+"</p>";
+			str+="                <p><span>结果：</span>您已报名成功,请等待我们的客服人员和您联系,谢谢</p>";
+		}
+		if (type==2){
+			str+="                <p><sapn>姓名：</sapn>"+data.name+"</p>";
+			str+="                <p><span>身份证：</span>"+data.idcard+"</p>";
+			str+="                <p><span>证书编号：</span>"+data.zscode+"</p>";
+		}
+		
+		str+="            </div>";
+		str+="            <div class=\'btnIndex\'>";
+		str+="                <a href=\'/\'>返回首页</a>";
+		str+="                <a href=\'/certificate/\'>继续查询</a>";
+		str+="            </div>";
+		str+="            <div class=\'Mc\' style=\'position: fixed;bottom:0; left:0;right:0;margin: 0 auto;\'>";
+		str+="            	<p style=\'text-align: center;display: block;width:100%\'>本站所有信息归：中力健身学院 版权所有</p>";
+		str+="            </div>";
+		str+="        </div>";
+		str+="    </div>";
+		str+="<script src='\/js\/common.js'><\/script>";
+		return str;
+	}
+	
+	$("#btn1").click(function(){
+		name=$("name1").val();
+		idcard=$("idcard1").val();
+		tel=$("tel1").val();
+		verify=$("verify1").val();
+		if (!name || !idcard || !tel || !verify){
+			alert('请填写完整');
+			return false;
+		}else{
+			$.post('/common/certificatesearch',{'name':name,'idcard':idcard,'tel':tel,'verify':verify},function(data){
+				if (data.status==0){
+					alert(data.msg);
+					return false;
+				}else{
+					str=getstr(data.msg,1);
+					$('body').html(str);
+				}
+				
+			});
+		}
+	});
+	
+	$("#btn2").click(function(){
+		name=$("name2").val();
+		idcard=$("idcard2").val();
+		zscode=$("zscode2").val();
+		verify=$("verify2").val();
+		if (!name || !idcard || !zscode || !verify){
+			alert('请填写完整');
+			return false;
+		}else{
+			$.post('/common/baomingsearch',{'name':name,'idcard':idcard,'tel':tel,'verify':verify},function(data){
+				if (data.status==0){
+					alert(data.msg);
+					return false;
+				}else{
+					str=getstr(data.msg,2);
+					$('body').html(str);
+				}
+			});
+		}
+	});
+</script>
+</body>
+
+</html>

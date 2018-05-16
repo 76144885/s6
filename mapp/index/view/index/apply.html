@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$cinfo.title}-{$web.webname}</title>
+    <meta name="Keywords" content="{$cinfo.keywords}">
+    <meta name="description" content="{$cinfo.description}">
+    <script src="/js/v.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/swiper/js/swiper.min.js"></script>
+    <script src="/js/base.js"></script>
+    <link rel="stylesheet" href="/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+
+        .apply {width: 6rem; margin: 0.2rem auto;background: #222;padding: 0.1rem;}
+        .apply>h3 {text-align: center;font-size: 0.32rem;color: #fff;line-height: 0.5rem;text-align: center}
+        .apply>p {font-size: 0.24rem; color:#fff;line-height: 0.36rem;}
+        .apply .apply_form{ color: #fff;width: 4.6rem; margin: 0 auto;font-size: 0.24rem;}
+        .apply .apply_form form>div i{position: absolute;font-size: 0.36rem; right: 0; top: 0.2rem;color:red;display: block;width: 0.2rem;line-height: 0.6rem;}        
+        .apply .apply_form form>div {width: 100%;overflow: hidden;padding: 0.14rem 0;position: relative;}
+        .apply .apply_form span {float: left;width: 1.3rem;line-height: 0.6rem;font-size: 0.24rem;}
+        .apply .apply_form .user,.apply .apply_form .xb,.apply .apply_form .age{letter-spacing: 0.24rem;}
+        .apply .apply_form input {float: left;height: 0.6rem;padding-left:0.05rem;outline: none;border: none; }
+        .apply .apply_form em {float: left;line-height: 0.6rem;margin: 0 0.15rem}
+        .apply .apply_form .user input,.apply .apply_form .tel input,.apply .apply_form .age input{width: 3rem;} 
+        .apply .apply_form  .btn button {width: 3rem; margin: 0 auto;height: 0.6rem; text-align: center;display: block;;background: #ee5253;border: none;font-size: 0.32rem;color: #fff;border-radius:0.05rem; }
+        .apply_form .xb input {width: 0.3rem;outline: none}
+        .apply .apply_form form>p {line-height: 0.4rem;font-size: 0.24rem;}
+        .apply .apply_form>h3{text-align: center;line-height: 0.6rem;}
+
+    </style>
+</head>
+
+<body style=" background: #e6e6e6;">
+    <!-- start : header -->
+    {include file="common/header"}
+    <!-- end : header -->
+    <!-- start：报名 -->
+    <div class="apply">
+        <h3>中力健身学院在线报名系统</h3>
+        <p>温馨提示：
+            <br>请仔细填写在线报名信息，您的信息只会在我们报名系统中显示,只有学院相关老师可浏览到你的信息，我们将把 你的个人隐私放在工作的第一位。你还可以直接通过
+            <span style="color: #ea4a56">网站咨询</span>或拨打
+            <span style="color: #ea4a56">学院座机010-80320881报名010-80320881报名</span>
+        </p>
+        <div class="apply_form">
+            <h3>报名信息填写</h3>
+            <form action="">
+                <div class="user "><span>姓名:</span> <input type="text" class="text app_use" name="name"><i>*</i></div>
+                <div class="xb"><span>性别:</span><input type="radio" name="sex" value="男" class="app_radio" checked><em>男</em><input type="radio" name="sex" value="女" class="app_radio"><em>女</em><i>*</i></div>
+                <div class="tel"><span>联系电话:</span><input type="text" class="text app_tel"  name="tel"><i>*</i></div>
+                <div class="age"><span>年龄:</span><input type="text" class="text app_nl" name="age"></div>
+                <p>注：带<i style="color: red;">*</i>号为必填项，填写完毕后请按“提交”按钮</p>
+                <div class="btn"><button class="app_btn">提交</button></div>
+               
+            </form>
+            </div>
+        </div>
+       
+    <div style="border-top:  solid #ea4a56 0.2rem; width: 6.4rem;margin: 0.2rem 0; margin: 0 auto"></div>
+    <!-- end: 报名-->
+    <!-- start : 留言板 -->
+    {include file="common/message"}
+    <!-- end : 留言板 -->
+    <div style="padding-bottom: 0.8rem;"></div>
+    <script>
+        $('.app_btn').click(function () {
+            var name =$('input[name=name]').val();
+            var sex = $('input[name=sex]').val();
+            var age = $('input[name=age]').val();
+            var tel = $('input[name=tel]').val();
+            if (!tel) {
+                alert('请输入电话');
+                return false;
+            } else {
+                $.post('/common/messagesave', { 'name': name, 'sex': sex, 'age': age, 'tel': tel }, function (data) {
+                    if (data) {
+                        alert('留言成功,请等待我们的联系,保持电话畅通');
+                    } else {
+                        alert('由于网络原因操作失败,请稍后重试');
+                    }
+                }, 'json');
+            }
+
+        });
+    </script>
+</body>
+
+</html>

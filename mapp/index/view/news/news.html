@@ -1,0 +1,126 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{$r.title}-{$web.webname}</title>
+    <meta name="keywords" content="{$r.keywords}"/>
+    <meta name="description" content="{$r.description}">
+    <link rel="stylesheet" type="text/css" href="/static/q/css/all_1.css">
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.aiqianxian1.com/a/{$r.id}.html">
+    <script src="/static/q/js/jquery-1.7.2.min_1.js"></script>
+</head>
+<body>
+{include file="index:header" /}
+<!--中心内容盒子-->
+<div class="main">
+    <!--小导航--><!--小导航-->
+    <div class="s_nav_box">
+        <div class="s_nav_left"></div>
+        <div class="s_nav_right">
+            <a href="/">首页</a>
+            <div>&gt;</div>
+            {eq name="r.type" value="1"}<a href="/news/" title="新闻中心">新闻中心</a>{/eq}
+            {eq name="r.type" value="2"}<a href="/zhinan/" title="创业指南">创业指南</a>{/eq}
+            <div>&gt;</div>
+            {$r.title}
+        </div>
+    </div>
+    <!--中心内容左侧-->
+    <div class="main_left">
+        <!--左侧新闻内容-->
+        <div class="news_content_box">
+            <h1>{$r.title}</h1>
+            <!--小编信息等-->
+            <ul class="news_i">
+                <li>来源：网络</li>
+                <li>时间：{:date('Y-m-d H:i:s',$r.ctime)}</li>
+            </ul>
+            <div class="tags_box">
+                <div class="tags" style="100%"><span>标签:</span><span style="margin-left:5px;float: left;"><strong>{$r.tags}</strong></span></div>
+            </div>
+            <!--摘要部分-->
+            <div class="news_ipt"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;摘要：</strong>{$r.description}</div>
+            <!--新闻内容部分-->
+            <div class="news_content">
+                {$r.note}
+                        <!--分享的图标-->
+            <ul class="share_news">
+                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin","sqq"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin","sqq"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+            </ul>
+            <!--上一页-->
+            <p style="color:#434343;font-size:12px;float: left;">上一篇：</p>
+			{eq name="ru" value=""}<span class="last_page">没有了</span>{else/}<a href="/a/{$ru.id}.html" class="last_page" target="_blank"><span>{$ru.title}</span></a>{/eq}
+            
+            <!--下一页-->
+            {eq name="rd" value=""}<span class="next_page">没有了</span>{else/}<a href="/a/{$rd.id}.html" class="next_page" target="_blank"><span>{$rd.title}</span></a>{/eq}
+            <p style="color:#434343;font-size:12px;float: right;"> 下一篇：</p>
+        </div>
+        <!--相关阅读-->
+        <div class="about_read">
+            <h4>相关阅读</h4>
+            <ul class="about_read_left">
+				{volist name="newslist" id="vo" offset="0" length="5"}
+                <li><a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a></li>
+				{/volist}
+            </ul>
+            <ul class="about_read_right">
+                {volist name="newslist" id="vo" offset="5" length="5"}
+                <li><a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a></li>
+				{/volist}
+            </ul>
+        </div>
+        <div style="width: 100%; margin: 20px auto;overflow: hidden;">
+            <script>
+                comeid=103;
+                wenxtishi = '';
+            </script>
+            <script src="http://gbook.aiqin.com/ogbook1.js"></script>
+        
+        </div>
+    </div>
+    <!--中心内容右侧--><!--中心内容右侧-->
+
+</div>
+    <div class="main_right">
+        <!--顶部标识-->
+        <div class="main_right_header">
+            <div class="web_icon_line_right">
+                <ul>
+                    <li><h2>热门点击</h2></li>
+                    <li><h3>Hot Click</h3></li>
+                    <li><div></div></li>
+                </ul>
+            </div>
+        </div>
+<!--新闻推荐列表-->
+        <div class="main_right_news_list">
+            {volist name="newslist1" id="vo" offset="0" length="1"}
+            <a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+            <p>{$vo.description}</p>
+            <p class="text_fenge"></p>
+            {/volist}
+            {volist name="newslist1" id="vo" offset="1" length="9"}
+            <div>
+                <a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+                <p>{:date('m月d日',$vo.ctime)}</p>
+            </div>
+            <p class="text_fenge"></p>
+            {/volist}
+        </div>
+        <!--两个广告位-->
+        <div class="two_pic_box war_item">
+            <ul>
+                {volist name="prolist" id="vo"}
+                <li><a href="/project/{$vo.etitle}/" target="_blank"><img src="{$vo.logo}"><p>{$vo.title}</p></a></li>
+                {/volist}
+            </ul>
+
+        </div>
+    </div>
+ </div>   
+{include file="index:footer" /}
+</body>
+</html>

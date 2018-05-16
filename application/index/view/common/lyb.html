@@ -1,0 +1,74 @@
+<div class="common_mes">
+    <div class="common_bt">
+        <p>获取您的专属健身计划</p>
+        <img src="/img/lybs.png">
+    </div>
+    <div class="common_form">
+        <form class="Y_Form">
+            <div class="common_user">
+                <span>姓名:</span>
+                <input type="text" class="C_use" id="name">
+                <img src="/img/jt01.png">
+            </div>
+            <div class="common_age">
+                <span>性别:</span>
+                <input type="text" class="C_age" id="sex">
+                <span>年龄:</span>
+                <input type="text"  class="C_nl" id="age">
+                <img src="">
+            </div>
+            <div class="common_sg">
+                <span>身高:</span>
+                <input type="text" id="height">
+                <span>体质:</span>
+                <input type="text" id="weight">
+                <img src="/img/jt01.png">
+            </div>
+            <div class="common_tel">
+                <span>电话:</span>
+                <input type="text" class="C_tel" id="tel">
+                <img src="/img/jt01.png">
+            </div>
+            <a href="javascript:;" id="Cbtn" class="common_btn C_btn">提交</a>
+            <p>
+                <a href="#">您可能关心以下问题</a>
+                <img src="/img/jt01.png">
+            </p>
+            <p>
+                <a href="#">如何选择专业学校学习？</a>
+                <img src="/img/jt01.png">
+            </p>
+            <p>
+                <a href="#">学习多久可以正式就业？</a>
+                <img src="/img/jt01.png">
+            </p>
+        </form>
+    </div>
+
+</div>
+<script>
+$('.common_bt img').click(function () {
+     $('.common_form').slideToggle('show');
+})
+$('#Cbtn').click(function(){
+	name=$('#name').val();
+	sex=$('#sex').val();
+	age=$('#age').val();
+	height=$('#height').val();
+	weight=$('#weight').val();
+	tel=$('#tel').val();
+	if (!tel){
+		alert('请输入电话');
+		return false;
+	}else{
+		$.post('/common/messagesave',{'name':name ,'sex':sex ,'age':age ,'height':height ,'weight':weight ,'tel':tel },function(data){
+			if (data){
+				alert('留言成功,请等待我们的联系,保持电话畅通');
+			}else{
+				alert('由于网络原因操作失败,请稍后重试')
+			}
+		},'json');
+	}
+
+});
+</script>

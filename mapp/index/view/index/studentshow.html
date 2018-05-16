@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$rinfo.title}-{$web.webname}</title>
+    <meta name="Keywords" content="{$rinfo.keywords}">
+    <meta name="description" content="{$rinfo.description}">
+    <script src="/js/v.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/swiper/js/swiper.min.js"></script>
+    <script src="/js/base.js"></script>
+    <link rel="stylesheet" href="/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- start : header -->
+    {include file="common/header"}
+    <!-- end : header -->
+    <!-- start：就业明星 -->
+    <div class="jiuye">
+        <div class="bt">
+            <ul>
+                <li>
+                    <img src="/images/001.png">
+                </li>
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li>
+                    <img src="/images/002.png">
+                </li>
+                <li>
+                    <a href="#">就业明星</a>
+                </li>
+            </ul>
+        </div>
+        <!-- start: 详情 -->
+        <div class="dsxq">
+            <div class="left">
+                <div class="xp">
+                    <img src="/images/banner.jpg">
+                    <div class="hb">
+                        <img src="__PCHOST__{$rinfo.picurl}">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <p class="jsds">姓名</p>
+                <p class="user">{$rinfo.title}</p>
+                <p class="jianjie">工作单位</p>
+                <p class="xqks">{$rinfo.data.note}</p>
+                <p class="jianjie">薪资</p>
+                <p class="xqks">{$rinfo.shortnote}</p>
+        
+        
+        
+            </div>
+        </div>
+        <!-- start: 详情 -->
+        <!-- stert: 分页 -->
+        <!--<div class="sxrr">
+            <div class="next">
+                <a href="#">
+                    <p>上</p>
+                    <span>姓名</span>
+                </a>
+            </div>
+            <div class="prev">
+                <a href="#">
+                    <p>下</p>
+                    <span>姓名</span>
+                </a>
+            </div>
+        </div>-->
+        <!-- end: 分页 -->
+
+    </div>
+    <div style="border-top:  solid #ea4a56 0.2rem; width: 6.4rem;margin: 0.2rem 0;"></div>
+    <!-- end: 就业明星-->
+    <!-- start : 留言板 -->
+    {include file="common/message"}
+    <!-- end : 留言板 -->
+    <div style="margin-bottom: 0.8rem;"></div>
+</body>
+
+</html>

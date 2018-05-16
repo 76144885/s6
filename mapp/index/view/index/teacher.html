@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$cinfo.title}-{$web.webname}</title>
+    <meta name="Keywords" content="{$cinfo.keywords}">
+    <meta name="description" content="{$cinfo.description}">
+    <script src="/js/v.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/swiper/js/swiper.min.js"></script>
+    <script src="/js/base.js"></script>
+    <link rel="stylesheet" href="/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+    .wenda  #mx_list ul{width:6rem;margin:0 auto;overflow:hidden}
+    .wenda  #mx_list li{float:left;width:1.8rem;margin:.1rem;overflow:hidden}
+    .wenda  #mx_list li a{color:#fff}
+    .wenda  #mx_list li p{text-align:center;line-height:.4rem;font-size:.24rem}
+    .wenda  #mx_list li img{background:red;width:1.8rem;height:auto;border-radius:50%}    
+    </style>
+</head>
+
+<body style=" background: #e6e6e6;">
+    <!-- start : header -->
+    {include file="common/header"}
+    <!-- end : header -->
+    <!-- start：健身问答 -->
+    <div class="wenda">
+        <div class="bt">
+            <h1>培训团队</h1>
+            <img src="/images/014.png" >
+        </div>
+        <div class="mx_list" id="mx_list">
+            <ul>
+                {volist name="data" id="vo"}
+                    <li><a href="/a/{$vo.id}.html"><img src="__PCHOST__{$vo.picurl}" style="height: auto;"></a></li>
+                {/volist}
+            </ul>
+        </div>
+    </div>
+    <div style="border-top:  solid #ea4a56 0.2rem; width: 6.4rem;margin: 0.2rem 0;"></div>
+    <!-- end: 健身问答-->
+    <!-- start : 留言板 -->
+    {include file="common/message"}
+    <!-- end : 留言板 -->
+    <div style="padding-bottom: 0.8rem;"></div>
+</body>
+
+</html>

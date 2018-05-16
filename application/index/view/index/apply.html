@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>在线报名</title>
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+    <div class="baoming">
+        <div class="baoming_war">
+            <div class="bt">
+                <h1>中力健身学院在线报名系统</h1>
+                <p>温馨提示：
+                    <br>请仔细填写在线报名信息，您的信息只会在我们报名系统中显示,只有学院相关老师可浏览到你的信息，我们将把 你的个人隐私放在工作的第一位。你还可以直接通过
+                    <span>网站咨询</span>或拨打
+                    <span>学院座机010-80320881报名010-80320881报名</span>
+                </p>
+            </div>
+            <div class="left"><img src="/img/z.png"></div>
+            <div class="form">
+                <h3>报名信息填写</h3>
+                <form name="form">
+                    <div>
+                        <span class="mss">姓名:</span>
+                        <input type="text" class="text app_use" placeholder="请输入真实有效姓名" name="name">
+                        <i>*</i>
+                    </div>
+                    <div>
+                        <span class="mss">性别:</span>
+                        <input type="radio" name="sex" value="男" class="app_radio" checked><em>男</em>
+                        <input type="radio" name="sex" value="女"  class="app_radio"><em>女</em>
+                        <i>*</i>
+                    </div>
+                    <div>
+                        <span>联系电话:</span>
+                        <input type="text" name="tel" class="text app_tel" placeholder="请输入真实联系电话">
+                        <i>*</i>
+                    </div>
+                    <div>
+                        <span class="mss">年龄:</span>
+                        <input type="text" name="age" class="text app_nl" placeholder="请输入真实年龄">
+                    </div>
+                    <p>注：带
+                        <i>*</i>号为必填项，填写完毕后请按“提交”按钮</p>
+                    <div class="btn">
+                        <a href="javascipt:;" class="app_btn">提交</a>
+                        <a href="javascipt:;" class="app_cz">重置</a>
+                    </div>
+                    <div>
+                        <a href="/" style="width: 120px;border-radius: 15px;text-align: center;line-height: 36px; font-size: 18px; color: #fff;background: #ee5253;display: block;margin: 0 auto">返回首页</a>
+                    </div>
+                </form>
+                
+            </div>
+            <div class="right">
+                <img src="/img/wx.png">
+                <p>扫一扫关注我们</p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/common.js"></script>
+	<script>
+    $('.app_btn').click(function(){
+		name=$('#name').val();
+		sex=$('#sex').val();
+		age=$('#age').val();
+		tel=$('#tel').val();
+		if (!tel){
+			alert('请输入电话');
+			return false;
+		}else{
+			$.post('/common/messagesave',{'name':name ,'sex':sex ,'age':age ,'tel':tel },function(data){
+				if (data){
+					alert('留言成功,请等待我们的联系,保持电话畅通');
+				}else{
+					alert('由于网络原因操作失败,请稍后重试');
+				}
+			},'json');
+		}
+	
+	});
+    </script>
+</body>
+
+</html>

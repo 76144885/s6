@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$cinfo.title}-{$web.webname}</title>
+    <meta name="Keywords" content="{$cinfo.keywords}">
+    <meta name="description" content="{$cinfo.description}">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script>
+        !(function () {
+            var userAgent = navigator.userAgent;
+            var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+            reIE.test(userAgent)
+            var ISie = parseFloat(RegExp["$1"]);
+            if (ISie !== NaN && ISie < 10) {
+                alert('您的浏览器版本过低，请您升级浏览器！！')
+            }
+        })();
+    </script>
+    
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+            <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    {include file="common/header"}
+    <div class="kecheng">
+        <h2>教学的至高境界
+            <em>分级教学</em>
+            <i>只有中力</i>
+        </h2>
+        <div class="list">
+            <div>
+               	{volist name="data" id="vo" offset="0" length="6"}
+                <a href="/a/{$vo.id}.html"><img src="{$vo.picurl}"></a>
+                {/volist}
+            </div>
+        </div>
+        <!-- <p>{$vo.title}</p> -->
+        <div class="mokuai">
+            <h3>课程核心模块：</h3>
+            {volist name="data" id="vo" offset="6"}
+			<a href="/a/{$vo.id}.html"><span></span><p>{$vo.title}</p></a>
+			{/volist}
+        </div>
+    </div>
+    {include file='common/footer'}
+</body>
+
+</html>

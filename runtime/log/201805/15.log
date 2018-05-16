@@ -1,0 +1,2420 @@
+---------------------------------------------------------------
+[ 2018-05-15T09:52:22+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T09:52:23+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T09:52:24+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T15:32:33+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/area/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T15:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/h/static/h-ui/js/H-ui.min.js',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T15:33:14+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：2,004.75kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/h/static/h-ui.admin/js/H-ui.admin.js',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T15:34:07+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/h/static/h-ui/js/H-ui.min.js',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T15:41:19+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/h/static/h-ui/js/H-ui.min.js',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:10:50+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/area/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:10:55+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/h/static/h-ui/js/H-ui.min.js',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:07+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:08+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:21+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:22+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:22+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:36+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:37+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:40+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:47+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:48+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:48+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:49+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:12:53+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:53+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:53+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:13:49+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:13:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:13:50+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:13:54+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:14:03+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:14:03+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:14:06+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:14:07+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:14:20+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:14:57+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,004.75kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/h/static/h-ui.admin/skin/green/skin.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:15:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:15:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:15:10+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:15:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:15:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,280.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:15:11+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:15:13+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:15:14+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:17:11+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/h-ui/js/H-ui.min.js
+[ info ] www.h.com/h/static/h-ui/js/H-ui.min.js [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,279.58kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'if-modified-since' => 'Tue, 15 May 2018 08:10:36 GMT',
+  'if-none-match' => '"2a233-56c3a2323a554"',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/h-ui/js/H-ui_min_js' => '',
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:17:11+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/h-ui/js/H-ui.min.js
+[ info ] www.h.com/h/static/h-ui/js/H-ui.min.js [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,278.44kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/h-ui/js/H-ui_min_js' => '',
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:17:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:17:12+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:17:12+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:17:16+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/static/h/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:17:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/h/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/static/h/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,279.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'h',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/h/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:18:12+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/h/static/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,279.06kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:18:13+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/h/static/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:18:13+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:21:20+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/h/static/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,279.06kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/h/static/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:21:24+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/h/static/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:21:25+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/h/static/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.06kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:21:25+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:21:39+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/font-awesome.min93e3.css?v=4.4.0
+[ info ] www.h.com/h/static/css/font-awesome.min93e3.css?v=4.4.0 [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,279.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/font-awesome_min93e3_css' => '',
+  'v' => '4.4.0',
+  'css' => 'font-awesome.min93e3.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:21:40+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/h/static/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,279.06kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:21:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,005.38kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:27:09+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-15T16:27:10+08:00 ] 127.0.0.1 127.0.0.1 GET /h/static/css/bootstrap.min14ed.css?v=3.3.6
+[ info ] www.h.com/h/static/css/bootstrap.min14ed.css?v=3.3.6 [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,279.06kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'h',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/welcome.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/h/static/css/bootstrap_min14ed_css' => '',
+  'v' => '3.3.6',
+  'css' => 'bootstrap.min14ed.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:27:10+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.h.com/favicon.ico [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,004.41kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'content',
+    2 => 'list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+  'etitle' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'aiqinweb'@'localhost' (using password: YES)[F:\web\s6\thinkphp\library\think\db\Connection.php:293]

@@ -1,0 +1,1102 @@
+---------------------------------------------------------------
+[ 2018-05-14T21:13:13+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/Main
+[ info ] www.h.com/ht.php/Main [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,575.34kb] [文件加载：48]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->index[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:13:17+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php
+[ info ] www.h.com/ht.php [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,565.41kb] [文件加载：48]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/Main',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\s6\admin\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:13:19+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php
+[ info ] www.h.com/ht.php [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,450.52kb] [文件加载：46]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/Main',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\s6\admin\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:13:30+08:00 ] 127.0.0.1 127.0.0.1 POST /ht.php/index/login
+[ info ] www.h.com/ht.php/index/login [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,006.36kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.h.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ F:\web\s6\admin\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=s6_website;host=127.0.0.1;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 's6_website.admin' doesn't exist[F:\web\s6\thinkphp\library\think\db\connector\Mysql.php:65]
+---------------------------------------------------------------
+[ 2018-05-14T21:13:33+08:00 ] 127.0.0.1 127.0.0.1 POST /ht.php/index/login
+[ info ] www.h.com/ht.php/index/login [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,006.36kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.h.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ F:\web\s6\admin\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=s6_website;host=127.0.0.1;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 's6_website.admin' doesn't exist[F:\web\s6\thinkphp\library\think\db\connector\Mysql.php:65]
+---------------------------------------------------------------
+[ 2018-05-14T21:14:12+08:00 ] 127.0.0.1 127.0.0.1 POST /ht.php/index/login
+[ info ] www.h.com/ht.php/index/login [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,018.89kb] [文件加载：52]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.h.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ F:\web\s6\admin\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=s6_website;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  (  username='admin' ) LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:14:12+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/main/
+[ info ] www.h.com/ht.php/main/ [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,455.44kb] [文件加载：46]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->index[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:14:12+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/main/welcome.html
+[ info ] www.h.com/ht.php/main/welcome.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,562.46kb] [文件加载：49]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'main',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->welcome[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/main/
+[ info ] www.h.com/ht.php/main/ [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,577.62kb] [文件加载：48]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->index[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/main/welcome.html
+[ info ] www.h.com/ht.php/main/welcome.html [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,452.00kb] [文件加载：47]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'main',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->welcome[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/main/
+[ info ] www.h.com/ht.php/main/ [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,581.80kb] [文件加载：48]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->index[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/main/welcome.html
+[ info ] www.h.com/ht.php/main/welcome.html [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,452.38kb] [文件加载：47]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'main',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Main->welcome[ F:\web\s6\admin\index\controller\Main.php ]
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\main\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:24:55+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/edit
+[ info ] www.h.com/ht.php/category/edit [运行时间：0.102000s][吞吐率：9.80req/s] [内存消耗：2,264.63kb] [文件加载：58]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->edit[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\edit.html [ array (
+  0 => 'category_list',
+  1 => 'id',
+  2 => 'rinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[F:\web\s6\admin\index\controller\Category.php:15]
+[ error ] [8]未定义数组索引: fid[F:\web\s6\admin\index\controller\Category.php:16]
+[ error ] [8]未定义数组索引: id[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:35]
+[ error ] [8]未定义数组索引: name[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:55]
+[ error ] [8]未定义数组索引: ename[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:63]
+[ error ] [8]未定义数组索引: keyword[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:70]
+[ error ] [8]未定义数组索引: description[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:76]
+[ error ] [8]未定义数组索引: tags[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:82]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.018000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:25:02+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category
+[ info ] www.h.com/ht.php/category [运行时间：0.091000s][吞吐率：10.99req/s] [内存消耗：2,229.05kb] [文件加载：55]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:25:03+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/edit/
+[ info ] www.h.com/ht.php/category/edit/ [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：2,131.20kb] [文件加载：56]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->edit[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\edit.html [ array (
+  0 => 'category_list',
+  1 => 'id',
+  2 => 'rinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[F:\web\s6\admin\index\controller\Category.php:15]
+[ error ] [8]未定义数组索引: fid[F:\web\s6\admin\index\controller\Category.php:16]
+[ error ] [8]未定义数组索引: id[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:35]
+[ error ] [8]未定义数组索引: name[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:55]
+[ error ] [8]未定义数组索引: ename[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:63]
+[ error ] [8]未定义数组索引: keyword[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:70]
+[ error ] [8]未定义数组索引: description[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:76]
+[ error ] [8]未定义数组索引: tags[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:82]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.016000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:25:42+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/edit/
+[ info ] www.h.com/ht.php/category/edit/ [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：2,264.77kb] [文件加载：58]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->edit[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\edit.html [ array (
+  0 => 'category_list',
+  1 => 'id',
+  2 => 'rinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[F:\web\s6\admin\index\controller\Category.php:15]
+[ error ] [8]未定义数组索引: fid[F:\web\s6\admin\index\controller\Category.php:16]
+[ error ] [8]未定义数组索引: id[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:35]
+[ error ] [8]未定义数组索引: name[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:55]
+[ error ] [8]未定义数组索引: ename[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:62]
+[ error ] [8]未定义数组索引: keyword[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:68]
+[ error ] [8]未定义数组索引: description[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:74]
+[ error ] [8]未定义数组索引: tags[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:25:57+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/
+[ info ] www.h.com/ht.php/category/ [运行时间：0.083000s][吞吐率：12.05req/s] [内存消耗：2,036.30kb] [文件加载：53]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:25:58+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/edit
+[ info ] www.h.com/ht.php/category/edit [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：2,131.16kb] [文件加载：56]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->edit[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\edit.html [ array (
+  0 => 'category_list',
+  1 => 'id',
+  2 => 'rinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[F:\web\s6\admin\index\controller\Category.php:15]
+[ error ] [8]未定义数组索引: fid[F:\web\s6\admin\index\controller\Category.php:16]
+[ error ] [8]未定义数组索引: id[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:35]
+[ error ] [8]未定义数组索引: name[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:55]
+[ error ] [8]未定义数组索引: ename[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:62]
+[ error ] [8]未定义数组索引: keyword[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:68]
+[ error ] [8]未定义数组索引: description[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:74]
+[ error ] [8]未定义数组索引: tags[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.016000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:26:05+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/edit
+[ info ] www.h.com/ht.php/category/edit [运行时间：0.093000s][吞吐率：10.75req/s] [内存消耗：2,131.16kb] [文件加载：56]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->edit[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\edit.html [ array (
+  0 => 'category_list',
+  1 => 'id',
+  2 => 'rinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[F:\web\s6\admin\index\controller\Category.php:15]
+[ error ] [8]未定义数组索引: fid[F:\web\s6\admin\index\controller\Category.php:16]
+[ error ] [8]未定义数组索引: id[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:35]
+[ error ] [8]未定义数组索引: name[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:55]
+[ error ] [8]未定义数组索引: ename[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:62]
+[ error ] [8]未定义数组索引: keyword[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:68]
+[ error ] [8]未定义数组索引: description[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:74]
+[ error ] [8]未定义数组索引: tags[F:\web\s6\adminruntime\temp\3244fbbba911f22447f40c57262c8525.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.019000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:26:19+08:00 ] 127.0.0.1 127.0.0.1 POST /ht.php/category/save
+[ info ] www.h.com/ht.php/category/save [运行时间：0.084000s][吞吐率：11.90req/s] [内存消耗：1,998.09kb] [文件加载：52]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/edit',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.h.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '91',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+  'fid' => '0',
+  'name' => '测试',
+  'ename' => 'ceshi',
+  'keyword' => 'adsfas',
+  'description' => 'asdfasd',
+  'tags' => 'asdfa',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->save[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] INSERT INTO `category` (`name` , `ename` , `fid` , `keyword` , `description` , `tags` , `images`) VALUES ('测试' , 'ceshi' , 0 , 'adsfas' , 'asdfasd' , 'asdfa' , NULL) [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:26:23+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/
+[ info ] www.h.com/ht.php/category/ [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：2,131.44kb] [文件加载：56]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/main/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->index[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` ORDER BY id asc [ RunTime:0.018000s ]
+[ error ] [8]未定义数组索引: child[F:\web\s6\adminruntime\temp\b7868497568a02c8d323163c0e1a5615.php:62]
+[ error ] [8]未定义数组索引: child[F:\web\s6\adminruntime\temp\b7868497568a02c8d323163c0e1a5615.php:62]
+[ error ] [8]未定义数组索引: child[F:\web\s6\adminruntime\temp\b7868497568a02c8d323163c0e1a5615.php:62]
+---------------------------------------------------------------
+[ 2018-05-14T21:26:25+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/imageslist?catid=1
+[ info ] www.h.com/ht.php/category/imageslist?catid=1 [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：2,088.71kb] [文件加载：58]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'imageslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->imageslist[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: id[F:\web\s6\admin\index\controller\Category.php:53]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1[F:\web\s6\thinkphp\library\think\db\Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category_images` [ RunTime:0.019000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:27:12+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/imageslist?catid=1
+[ info ] www.h.com/ht.php/category/imageslist?catid=1 [运行时间：0.087000s][吞吐率：11.49req/s] [内存消耗：2,215.57kb] [文件加载：55]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'imageslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\index\controller\Category->imageslist[ F:\web\s6\admin\index\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\web\s6\public/../admin/index\view\category\imageslist.html [ array (
+  0 => 'catid',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025000s ] mysql:dbname=s6_website;host=116.196.114.254;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category_images` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `category_images` WHERE  (  catid=1 ) ORDER BY id asc [ RunTime:0.019000s ]
+---------------------------------------------------------------
+[ 2018-05-14T21:27:12+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/lib/lightbox2/2.8.1/js/lightbox.min.js
+[ info ] www.h.com/ht.php/category/lib/lightbox2/2.8.1/js/lightbox.min.js [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,487.45kb] [文件加载：48]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/imageslist?catid=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'lightbox2' => '2.8.1',
+  'js' => 'lightbox.min.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T21:27:13+08:00 ] 127.0.0.1 127.0.0.1 GET /ht.php/category/lib/lightbox2/2.8.1/js/lightbox.min.js
+[ info ] www.h.com/ht.php/category/lib/lightbox2/2.8.1/js/lightbox.min.js [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,487.45kb] [文件加载：48]
+[ info ] [ LANG ] F:\web\s6\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fbbut8aqk3k1bfnempaae7bld9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.h.com/ht.php/category/imageslist?catid=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.h.com',
+)
+[ info ] [ PARAM ] array (
+  'lightbox2' => '2.8.1',
+  'js' => 'lightbox.min.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File

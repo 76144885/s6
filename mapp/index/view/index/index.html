@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$web.title}-{$web.webname}</title>
+    <script src="/js/v.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/swiper/js/swiper.min.js"></script>
+    <script src="/js/base.js"></script>
+    <link rel="stylesheet" href="/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+        <style>
+            .zoomify{cursor:pointer;cursor:-webkit-zoom-in;cursor:zoom-in}.zoomify.zoomed{cursor:-webkit-zoom-out;cursor:zoom-out;padding:0;margin:0;border:none;border-radius:0;box-shadow:none;position:relative;z-index:1501}.zoomify-shadow{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:block;z-index:1500;background:rgba(0,0,0 ,.3);opacity:0}.zoomify-shadow.zoomed{opacity:1;cursor:pointer;cursor:-webkit-zoom-out;cursor:zoom-out}       
+        </style>    
+</head>
+<body>
+    <!-- start : header -->
+    {include file="common/header"}
+    <!-- end : header -->
+    <div class="index">
+        <!-- start: 中力公告 -->
+        <div class="gg">
+            <div class="zlgg">
+               <img src="/images/019.png">
+               <p>中力公告 :</p>
+            </div>
+            <div class="gd">    
+                <div>
+                    <a>{$zlgg.shortnote}</a>
+                </div>
+            </div>
+        </div>
+        <!-- end: 中力公告 -->
+        <!-- start : 培训团队 -->
+        <div class="pxtd">
+            <div class="bt">
+                <p>培训团队</p>
+                <a href="/teacher/">查看更多&gt;&gt;</a>
+            </div>
+            <div class="list">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        {volist name="dstd" id="vo"}
+                        <div class="swiper-slide"><a href="/a/{$vo.id}.html"><img src="__PCHOST__{$vo.picurl}"></a></div>
+                        {/volist}
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <script>
+            var swiper = new Swiper('.list .swiper-container', {
+                loop: true,
+                slidesPerView: 4,
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                 }              
+            });
+        </script>        
+        <!-- end : 培训团队 -->
+        <!-- start: 优惠申请 -->
+        <div class="yhsq">
+            <div class="left"><span>优惠申请</span><div></div></div>
+            <form action="">
+            <div class="input">
+                <span>姓名:</span>
+                <input type="text" class="user" name="name">
+                <span>联系方式:</span>
+                <input type="text" class="tel" name="tel">
+            </div>
+                <button class="btn" value="提交">提交</button>
+            </form>
+        </div>
+        <!-- end: 优惠申请 -->
+        <!-- start: 学院优势 -->
+        <div class="xyys">
+            <div class="bt"><span>学院优势</span></div>
+            <div class="list">
+                <ul>
+                    <li><a href="/yingjian/">全新器械</a></li>
+                    <li><a href="/teacher/">明星导师</a></li>
+                    <li><a href="/qwzs/">权威证书</a></li>
+                    <li><a href="/student/">就业保障</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end : 学院优势 -->
+        <div class="redht"></div>
+        <!-- start:专业课程 -->
+        <div class="zykc">
+            <div class="bt">
+                <p>专业课程</p>
+                <a href="/lesson/">查看更多&gt;&gt;</a>
+            </div>
+            <div class="list">
+                <ul>
+                    {volist name="zykc" id="vo"}
+                    <li><a href="/a/{$vo.id}.html"><img src="__PCHOST__{$vo.picurl}"></a></li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+        <!-- end:专业课程 -->
+        <div class="redht"></div>
+        <!-- start: 权威证书 -->
+        <a name="zhengshu"></a>
+        <div class="qwzs">
+            <div class="bt">
+                <p>权威证书</p>
+                <a>查看更多&gt;&gt;</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><img src="/images/200.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/201.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/202.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/203.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/204.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/205.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/206.jpg" class="img-rounded zoomify"></li>
+                    <li><img src="/images/200.jpg" class="img-rounded zoomify"></li>
+                </ul>
+                <div style="clear: both;"></div>
+            </div>
+        </div>       
+        <!-- end:权威证书  -->
+        <div class="redht"></div>
+        <!-- start : 学院环境 -->
+        <a name="huanjing"></a>
+        <div class="xyhj">
+            <div class="bt">
+                <p>学院环境</p>
+                <a>查看更多&gt;&gt;</a>
+            </div>
+            <div class="list">
+                <ul>
+                	<li><a><img src="__PCHOST__/uploadfile/1.jpg" class="img-rounded zoomify"></a></li>
+                    <li><a><img src="__PCHOST__/uploadfile/2.jpg" class="img-rounded zoomify"></a></li>
+                    <li><a><img src="__PCHOST__/uploadfile/3.jpg" class="img-rounded zoomify"></a></li>
+                    <li><a><img src="__PCHOST__/uploadfile/4.jpg" class="img-rounded zoomify"></a></li>
+                    <li><a><img src="__PCHOST__/uploadfile/5.jpg" class="img-rounded zoomify"></a></li>
+                </ul>
+                
+            </div>
+            <div style="clear: both;"></div>
+        </div> 
+        
+
+        <script src="/js/zoomify.min.js"></script>
+        <script>
+            $('.img-rounded').zoomify();
+        </script>      
+        <!-- end : 学院环境 -->
+        <!-- start: 广告图 -->
+        <div class="ggt">
+            <img src="/images/3.jpg">
+        </div>
+        <!-- start: end -->
+        <div class="redht"></div>
+        <!-- start : 就业明星 -->
+        <div class="jymx">
+            <div class="bt">
+                <p>就业明星</p>
+                <a href="/student/">查看更多&gt;&gt;</a>
+            </div>
+            <div class="list">
+                <ul>
+                    {volist name="jymx" id="vo"}
+                    <li><a href="/a/{$vo.id}.html"><img src="__PCHOST__{$vo.picurl}"><p> {$vo.title}</p><p>薪资：{$vo.shortnote}</p></a></li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>         
+        <!-- end : 就业明星 -->
+        <div class="redht"></div>
+        <!-- start : 健身问答 -->
+        <div class="jswd">
+            <div class="bt">
+                <p>健身问答</p>
+                <a href="/question/">查看更多&gt;&gt;</a>
+            </div>
+            <div class="newslist">
+                <ul>
+                    {volist name="jswd" id="vo"}
+                    <li><a href="/a/{$vo.id}.html">
+                        <p>{$i}.{$vo.title}</p>
+                        <span><span></span>{$vo.note}</span>
+                    </a></li>
+                    {/volist}
+                </ul>
+               
+            </div>          
+        </div>
+        <!-- end : 健身问答 -->
+        <div class="redht"></div>
+        <!-- start : 合作单位 -->
+        <div class="hzdw">
+            <div class="bt">
+                <p>合作单位</p>
+            </div>  
+            <div class="list">
+                <ul>
+                    {volist name="hzdw" id="vo"}
+                    <li><img src="__PCHOST__{$vo.picurl}"></li>
+                    {/volist}
+                </ul>
+            </div>          
+        </div>
+        <!-- end : 合作单位 -->
+        <!-- start: btn -->
+        <div class="zxyy">
+                <div class="wyzx"><a href="#"><img src="/images/022.png" ><span>我要咨询</span></a></div>
+                <div class="wyyy"><a href="#"><img src="/images/023.png" ><span>我要预约</span></a></div>
+        </div>
+        <!-- start: btn -->      
+    </div>
+    <!-- start:footer -->
+    {include file="common/footer"}
+    <!-- end:footer -->
+    <script> 
+       D.gd('.index .gd');
+       D.qwzsList('.qwzs .list li');
+	   $('.btn').click(function(){
+			name=$('input[name=name]').val();
+			tel=$('input[name=tel]').val();
+			if (!tel){
+				alert('请输入电话');
+				return false;
+			}else{
+				$.post('/common/messagesave',{'name':name ,'note':'移动端首页留言' ,'tel':tel },function(data){
+					if (data){
+						alert('留言成功,请等待我们的联系,保持电话畅通');
+					}else{
+						alert('由于网络原因操作失败,请稍后重试')
+					}
+				},'json');
+			}
+		});
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<div class="message">
+    <div class="mess_bt">优惠申请</div>
+    <form action="">
+        <div>姓名</div>
+        <div class="From_users"><input type="text" name="name"></div>
+        <div>联系方式</div>
+        <div class="From_tel"><input type="text" name="tel"></div>
+        <div>留言</div>
+        <div class="From_tel"><textarea name="note"></textarea></div>
+        <button id="submit_btn">提交</button>
+    </form>
+    <script>
+     $('#submit_btn').click(function(){
+			name=$('input[name=name]').val();
+			tel=$('input[name=tel]').val();
+			note=$('input[name=note]').val();
+			if (!tel){
+				alert('请输入电话');
+				return false;
+			}else{
+				$.post('/common/messagesave',{'name':name ,'note':note ,'tel':tel },function(data){
+					if (data){
+						alert('留言成功,请等待我们的联系,保持电话畅通');
+					}else{
+						alert('由于网络原因操作失败,请稍后重试')
+					}
+				},'json');
+			}
+		});
+    </script>
+</div>

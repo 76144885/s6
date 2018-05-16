@@ -1,0 +1,54 @@
+﻿{extend name="common:base" /}
+{block name="css"}
+{/block}
+{block name="content"}
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 图片管理  <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a href="javascript:;" onclick="edit({$catid},'add')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe6df;</i> 上传</a> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> </span>  </div>
+	<div class="portfolio-content">
+		<ul class="cl portfolio-area">
+        	{volist name="data" id="vo"}
+			<li class="item">
+				<div class="portfoliobox">
+					<input class="checkbox" name="id" type="checkbox" value="{$vo.id}">
+					<div class="picbox"><a href="{$vo.picurl}" data-lightbox="gallery" data-title="图片{$i}"><img src="{$vo.picurl}"></a></div>
+					<div class="textbox"><a href="javascript:;" onclick="edit({$catid},'edit',{$vo.id})">图片{$i} </a></div>
+				</div>
+			</li>
+            {/volist}
+		</ul>
+	</div>
+</div>
+{/block}
+{block name="js"}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__public__/lib/lightbox2/2.8.1/js/lightbox.min.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$.Huihover(".portfolio-area li");
+});
+
+function edit(catid,act,id){
+	if (act=='add'){
+		id='';
+	}
+	layer_show('编辑图片','/ht.php/category/imagesedit?catid='+catid+'&id='+id,'700','600');
+}
+function datadel(){
+	ids=$('input[name=id]:checked').val();
+	str='';
+	for(i=0;i<ids.length;i++){
+		str+=ids[i]+',';
+	}
+	id=str.Substring(0,str.Length-1);
+	$.post('/ht.php/category/cdelete',{'id':id},function(data){
+		if (data==1){
+			layer.msg('已删除!',{icon:1,time:1000});
+			window.location.reload();
+		}else{
+			layer.msg('删除失败',{icon:2,time:1000});
+		}
+	},'json');
+}
+</script>
+{/block}

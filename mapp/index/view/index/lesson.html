@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$rinfo.title}-{$web.webname}</title>
+    <meta name="Keywords" content="{$rinfo.keywords}">
+    <meta name="description" content="{$rinfo.description}">
+    <script src="/js/v.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/swiper/js/swiper.min.js"></script>
+    <script src="/js/base.js"></script>
+    <link rel="stylesheet" href="/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- start : header -->
+    {include file="common/header"}
+    <!-- end : header -->
+    <!-- start：专业课程 -->
+    <div class="kecheng">
+        <div class="bt">
+            <div> <span></span>专业课程</div>
+        </div>
+        <div class="list">
+            <ul>
+            	{volist name="data" id="vo"}
+                <li>
+                    <a href="/a/{$vo.id}.html">
+                        <div class="left"></div>
+                        <div class="kc"><p>{$vo.title}</p><span>查看详情</span></div>
+                        <div class="img"><img src="__PCHOST__{$vo.picurl}"></div>
+                    </a>
+                </li>
+                {/volist}
+            </ul>
+        </div>
+        <div class="zst"><img src="/images/013.png"></div>
+    </div>
+    <!-- end: 专业课程-->
+    <!-- start : 留言板 -->
+    {include file="common/message"}
+    <!-- end : 留言板 -->
+    <div style="padding-bottom: 0.8rem;"></div>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$cinfo.title}-{$web.webname}</title>
+    <meta name="Keywords" content="{$cinfo.keywords}">
+    <meta name="description" content="{$cinfo.description}">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script>
+        !(function () {
+            var userAgent = navigator.userAgent;
+            var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+            reIE.test(userAgent)
+            var ISie = parseFloat(RegExp["$1"]);
+            if (ISie !== NaN && ISie < 10) {
+                alert('您的浏览器版本过低，请您升级浏览器！！')
+            }
+        })();
+    </script>
+    
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+            <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    {include file="common/header"}
+    <!-- 学校简介 -->
+    <div class="introduction">
+        <div class="introduction_bt">
+            <p>
+                <span></span>
+                <em>学校简介</em>
+            </p>
+        </div>
+        <div class="introduction_c">
+            <div class="introduction_c_l">{$rinfo.note}</div>
+            <div class="introduction_c_r">
+                <div class="introduction_c_r_bt">
+                    <span></span>
+                    <p>关于中力</p>
+                </div>
+                <div class="introduction_c_r_nr">
+                    <p>
+                        <span>校训：</span>
+                        <em>冠军私教中力打造</em>
+                    </p>
+                    <p>
+                        <span>宗旨：</span>
+                        <em>培养综合能力更加出色 的私人健身教练</em>
+                    </p>
+                    <p>
+                        <span>理念：</span>
+                        <em>以人为本，以实战为核心 就业为导向，规范健身市 场，培养出色健身教练</em>
+                    </p>
+                </div>
+                <div class="fengeng"></div>
+                <div class="introduction_c_r_bt">
+                    <span></span>
+                    <p>报名条件</p>
+                </div>
+                <div class="introduction_c_r_nr">
+                    <p>
+                        <span>年龄：</span>
+                        <em>17-25周岁</em>
+                    </p>
+                    <p>
+                        <span>身高：</span>
+                        <em>男160+ 女150+</em>
+                    </p>
+                    <p>
+                        <span>学历：</span>
+                        <em>初中以上</em>
+                    </p>
+                    <p>
+                        <span>身体状况：</span>
+                        <i>无运动型损伤疾病
+                            <br>
+                            <em>（具体情况请咨询学校老师）</em>
+                        </i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="introduction_lb">
+            <div class="introduction_lb_bt">校园风采</div>
+
+            <div class="introduction_lb_box">
+                <div class="bd">
+                    <ul class="picList">
+                        <li><a><img src="/uploadfile/1.jpg"></a></li>
+                        <li><a><img src="/uploadfile/2.jpg"></a></li>
+                        <li><a><img src="/uploadfile/3.jpg"></a></li>
+                        <li><a><img src="/uploadfile/4.jpg"></a></li>
+                        <li><a><img src="/uploadfile/5.jpg"></a></li>
+                        <li><a><img src="/uploadfile/1.jpg"></a></li>
+                    </ul>
+                </div>
+                <a class="prev" href="javascript:void(0)">
+                    <img src="/img/next.png" alt="">
+                </a>
+                <a class="next" href="javascript:void(0)">
+                    <img src="/img/prev.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 学校简介 -->
+
+    {include file='common/footer'}
+
+    <script>
+        jQuery(".introduction_lb_box").slide({ mainCell: ".bd ul", autoPage: true, effect: "leftLoop", autoPlay: true, vis: 5 });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+{extend name="common:base" /}
+{block name="css"}
+{/block}
+{block name="content"}
+<article class="page-container">
+	<form class="form form-horizontal" id="form">
+		<input type="hidden" name="id" id="id" value="{$rinfo.id}">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>姓名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.name}" placeholder="" id="name" name="name">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>身份证号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.idcard}" placeholder="" id="idcard" name="idcard">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>证书名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.type}" placeholder="" id="type" name="type">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>证书编号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" name="zscode" value="{$rinfo.zscode}" id="zscode">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button onClick="suba();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+			</div>
+		</div>
+	</form>
+</article>
+{/block}
+{block name="js"}
+<script>
+	function suba(){
+		var d = {};
+		var t = $('#form').serializeArray();
+		$.each(t, function() {
+		  d[this.name] = this.value;
+		});
+		$.post('/ht.php/system/zhengshuedit',d,function(data){
+			if (data==1){
+				layer.msg('保存成功',{icon:6});
+			}else{
+				layer.msg('保存失败',{icon:5});
+			}
+		},'json');
+	}
+</script>
+{/block}

@@ -1,0 +1,170 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{$ntitle}{gt name="p" value="1"}-第{$p}页{/gt}-{$web.webname}</title>
+    <meta name="description" content="{$ndesc}" />
+    <meta name="keywords" content="{$nkeywords}" />
+    <link rel="stylesheet" type="text/css" href="/static/q/css/all_1.css">
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.aiqianxian1.com/">
+    <script src="/static/q/js/jquery(mixnie).last_1.js"></script>
+    <!--必须的-->
+    <script src="/static/q/js/jquery-1.7.2.min_1.js"></script>
+    <!--需要-->
+</head>
+<body>
+{include file="index:header" /}
+<!--中心内容盒子-->
+<div class="main">
+	<!--小导航-->
+	<div class="s_nav_box">
+		<div class="s_nav_left"></div>
+		<div class="s_nav_right">
+			<a href="/">首页</a>
+			<div>&gt;</div>
+			{$title}
+		</div>
+	</div>
+	<!--中心内容左侧-->
+	<div class="main_left">
+		<!--头部栏目-->
+		<div class="web_icon_line">
+			<ul>
+				<li><h2>今日头条</h2></li>
+				<li><h3>Today's headlines</h3></li>
+				<li><div></div></li>
+			</ul>
+		</div>
+		<!--新闻内容页开始-->
+		<div class="news_style_center">
+        	{volist name="list" id="vo" offset="0" length="1"}
+			<a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+            {/volist}
+			<ul>
+            	{volist name="list" id="vo" offset="1" length="4"}
+				<li><a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a></li>
+                {/volist}
+			</ul>
+			<div class="news_style_bottom_line"></div>
+		</div>
+		<div class="news_style_center">
+			{volist name="list" id="vo" offset="5" length="1"}
+			<a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+            {/volist}
+			<ul>
+            	{volist name="list" id="vo" offset="6" length="4"}
+				<li><a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a></li>
+                {/volist}
+			</ul>
+			<div class="news_style_bottom_line"></div>
+		</div>
+		<div class="news_style_center">
+			{volist name="list" id="vo" offset="10" length="1"}
+			<a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+            {/volist}
+			<ul>
+            	{volist name="list" id="vo" offset="11" length="4"}
+				<li><a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a></li>
+                {/volist}
+			</ul>
+		</div>
+		<!--两个新闻推荐栏-->
+		<div class="con-wrap con-wrap_news_center">
+			<div class="con-box_center f-cb">
+				<div class="g-banBox mod-box1 f-cb g-banBox_center" init="false">
+					<div class="carouselwrap carouselwrap_center">
+						<div class="carouse-box">
+                        	{volist name="list" id="vo" offset="15" length="2"}
+							<div class="carouse-con">
+								<div class="car-bg-img" style="background-image:url({$vo.img})"></div>
+								<a href="/a/{$vo.id}.html" target="_blank" class="jk_btn" id="jk_507469" title="{$vo.title}">
+									<em class="bg-font f-turn"></em>
+									<em class="bg-font-top f-turn"></em>
+									<span class="txt1">{$vo.title}</span>
+									<span class="txt2">{$vo.description}</span>
+								</a>
+							</div>
+                            {/volist}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--tab-->
+
+		<div class="tab_contact_center">
+			<div class="enterprise_show_box">
+				<div class="product_box">
+					<div class="enterprise_show_contact_box2 news_tab_child show">
+                    	{volist name="list" id="vo" offset="17" length="8"}
+						<div class="news_style_center2">
+							<div class="news_style_left_center"><img src="{$vo.img}"></div>
+							<div class="news_style_right2">
+								<a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+								<p>{:msubstr($vo.description,0,140)}</p>
+								<div class="love_time">
+									<div class="love_people">{:mt_rand(20,550)}人赞过</div>
+									<div class="love_people_line">|</div>
+									<div class="looked_people">{:mt_rand(50,2367)}人看过</div>
+									<div class="news_time">时间：{:date('Y-m-d H:i:s',$vo.ctime)}</div>
+								</div>
+							</div>
+							<div class="news_fenge_line"></div>
+						</div>
+                        {/volist}
+						{$page}
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--加载更多-->
+	</div>
+	<!--中心内容右侧-->
+	<div class="main_right">
+		<!--顶部标识-->
+		<div class="main_right_header">
+			<div class="web_icon_line_right">
+				<ul>
+					<li><h2>热门点击</h2></li>
+					<li><h3>Hot Click</h3></li>
+					<li><div></div></li>
+				</ul>
+			</div>
+		</div>
+		<!--新闻推荐列表-->
+		<div class="main_right_news_list">
+        	{volist name="newslist1" id="vo" offset="0" length="1"}
+			<a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+			<p>{$vo.description}</p>
+			<p class="text_fenge"></p>
+            {/volist}
+            {volist name="newslist1" id="vo" offset="1" length="9"}
+			<div>
+				<a href="/a/{$vo.id}.html" title="{$vo.title}" target="_blank">{$vo.title}</a>
+				<p>{:date('m月d日',$vo.ctime)}</p>
+			</div>
+			<p class="text_fenge"></p>
+            {/volist}
+		</div>
+		<!--两个广告位-->
+		<div class="two_pic_box war_item">
+			<ul>
+            	{volist name="prolist" id="vo"}
+				<li><a href="/project/{$vo.etitle}/" target="_blank"><img src="{$vo.logo}"><p>{$vo.title}</p></a></li>
+                {/volist}
+			</ul>
+
+		</div>
+	</div>
+</div>
+{include file="index:footer" /}
+<!--必须 -->
+<script type="text/javascript" src="/static/q/js/news_center_tab_1.js"></script>
+<!--<script src="/static/q/js/back_top_right_1.js"></script>
+-->
+<script type="text/javascript">
+	$('.war_page').width(($('.war_page a').outerWidth()+10)*$('.war_page a').length)
+		
+</script>
+</body>
+</html>

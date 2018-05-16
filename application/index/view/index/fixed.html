@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        body{background: #e6e6e6;height: 9999999px;;}
+        *{padding: 0;margin: 0}
+        .left_fixed {position: fixed; width: 156px; height: 520px;left: 35px;top: 50%;margin-top: -280px }
+        .left_fixed .left_bt{ height: 60px; background: #f25153;text-align: center;line-height: 60px;color: #fff;font-size: 16PX;}
+        .left_fixed .left_tel,.left_fixed .left_wx {width: 156px;height:58px;background: #fff;margin-top: 5px;padding-top:10px }
+        .left_fixed .left_tel img ,.left_fixed .left_wx img{width: 46px; height: 30px;margin:  0 auto;display: block;}
+        .left_fixed .left_tel p,.left_fixed .left_wx p {line-height: 28px;text-align: center;font-size: 14px;}
+        .left_fixed .left_wx  a {text-decoration: none;color: #000;}
+        .left_fixed  .left_sq {margin: 0 auto;width: 142px; height: 30px; line-height: 30px; background: #f25153;border-radius:15px;line-height: 30px;text-align: center;color: #fff;font-size: 16px;letter-spacing: 3px;margin-top: 5px; }
+        .left_fixed  .left_sq a{text-decoration: none;color: #fff;}
+        .left_fixed .left_ewm { width: 156px; height: 137px;padding-top:15px;background: #ffff;margin: 5px 0;}
+        .left_fixed .left_ewm img {width: 116px; height: 100px;margin: 0 auto;display: block;}
+        .left_fixed .left_ewm p {text-align: center;font-size: 14px; color: #000}
+        .left_top img {width: 156px;height: 54px;}
+    </style>
+</head>
+<body>
+        <div class="left_fixed">
+            <div class="left_bt">中力健身学院</div>
+            <div class="left_tel">
+                <img src="../../public/img/left_tel.png">
+                <p>010-80320881</p>
+            </div>
+            <div class="left_wx">
+                <a href="javascipt:;">
+                <img src="../../public/img/left_wx.png" alt="">
+                <p>咨询咨询</p>
+                </a>
+            </div>
+            <div class="left_sq"><a href="javascipt:;">0元入学</a></div>
+            <div class="left_sq"><a href="javascipt:;">优惠申请</a></div>
+            <div class="left_ewm">
+                <img src="../../public/img/erm.png" alt="">
+                <p>关注我们</p>
+            </div>
+            <div class="left_top">
+                <a href="javascript:;" onclick="FanHui()">
+                    <img src="../../public/img/ftop.png" alt="">
+                </a>
+            </div>
+        </div>
+        <script>
+            function FanHui (){
+                window.scrollTo(0, 0);  
+            }
+        </script>
+</body>
+</html>

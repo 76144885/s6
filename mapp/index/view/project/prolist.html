@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>母婴店创业加盟品牌-创业项目-{$web.webname}</title>
+<meta name="description" content="母婴店加盟品牌，创业加盟项目" />
+<meta name="keywords" content="为创业者提供更多的母婴店加盟品牌和创业加盟项目，其项目包括快乐酷巴，中亿孕婴，婴知岛，伊呀贝比，十月妈咪，丽家宝贝，贝贝拉姆，皇家孕婴等百余类品牌。" />
+<link rel="stylesheet" type="text/css" href="/static/q/css/all_1.css">
+<link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.aiqianxian1.com/project/{gt name="p" value="1"}{$p}.html{/gt}">
+<script src="/static/q/js/jquery-1.7.2.min_1.js"></script>
+<style>
+  .index_news_style {
+    float: left;
+  }
+</style>
+</head>
+<body>
+{include file="index:header" /}
+<!--整体内容盒子-->
+<div class="main">
+	<!--小导航-->
+	<div class="s_nav_box">
+		<div class="s_nav_left">
+		</div>
+		<div class="s_nav_right">
+			<a href="/">首页</a>
+			<div>
+				&gt;
+			</div>
+			<a href="/project/" title="创业项目">创业项目</a>
+		</div>
+	</div>
+	<!--快餐品牌开始-->
+	<div class="all_icon_line" id="food_pingpai">
+		<ul class="any_icon_line">
+			<li>
+			<h2>热门品牌</h2>
+			</li>
+			<li>
+			<h3>Hot brand</h3>
+			</li>
+			<li>
+			<div>
+			</div>
+			</li>
+		</ul>
+		<div class="line_text">
+		</div>
+	</div>
+	<!--快餐品牌新闻内容-->
+<div class="list-box">
+	<ul id="vertical">
+    	{volist name="list" id="vo"}
+		<li>
+			<div class="item-war">
+				<div class="item-1">
+					<img src="{$vo.logo}">			
+				</div>
+				<div class="item-2" style="background: #000;height:230px">
+                    <div class="item-2-1">
+                    	<h3><a href="/project/{$vo.etitle}/" target="_blank" style="color:#F0E68C">{$vo.title}</a></h3>
+						<strong>加盟金额</strong><em>:{:money_arr($vo.money)}</em><br>
+						<strong>加盟特点</strong><em>:{:jmtd_arr($vo.jmtd)}</em><br>
+                        <strong>企业简介</strong>:{$vo.note}
+					</div>
+					<a href="/project/{$vo.etitle}/" class="news_style_left_link" target="_blank">进入项目单页简介</a>
+				</div>
+			</div>
+		</li>
+        {/volist}
+	</ul>
+</div>
+</div>
+
+<!--主体内容结束-->
+{include file="index:footer" /}
+<script type="text/javascript">
+	var turn = function(target,time,opts){
+	target.find('li').hover(function(){
+		$(this).find('.item-1').stop().animate(opts[0],time,function(){
+			$(this).hide().next().show();
+			$(this).next().animate(opts[1],time);
+		});
+	},function(){
+		$(this).find('.item-2').animate(opts[0],time,function(){
+			$(this).hide().prev().show();
+			$(this).prev().animate(opts[1],time);
+		});
+	});
+}
+var verticalOpts = [{'width':0},{'width':'280px'}];
+turn($('#vertical'),100,verticalOpts);
+</script>
+
+</body>
+</html>

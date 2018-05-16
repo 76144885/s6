@@ -1,0 +1,73 @@
+{extend name="common:base" /}
+{block name="css"}
+{/block}
+{block name="content"}
+<article class="page-container">
+	<form class="form form-horizontal" id="form">
+		<input type="hidden" name="id" id="id" value="{$rinfo.id}">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>网站名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.webname}" placeholder="" id="webname" name="webname">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>网站标题：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.title}" placeholder="" id="title" name="title">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>关键词：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.keywords}" placeholder="" id="keywords" name="keywords">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$rinfo.description}" placeholder="" id="description" name="description">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">版权信息：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="copyright" class="textarea">{$rinfo.copyright}</textarea>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">统计代码：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="tjcode" class="textarea">{$rinfo.tjcode}</textarea>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button onClick="suba();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+			</div>
+		</div>
+	</form>
+</article>
+{/block}
+{block name="js"}
+<!--<script type="text/javascript" src="/h/lib/ueditor/1.4.3/ueditor.config.js"></script> 
+<script type="text/javascript" src="/h/lib/ueditor/1.4.3/ueditor.all.min.js"> </script> 
+<script type="text/javascript" src="/h/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>-->
+<script>
+	//var ue = UE.getEditor('editor');
+	function suba(){
+		var d = {};
+		var t = $('#form').serializeArray();
+		$.each(t, function() {
+		  d[this.name] = this.value;
+		});
+		$.post('/ht.php/web/save',d,function(data){
+			if (data==1){
+				layer.msg('保存成功',{icon:6});
+			}else{
+				layer.msg('保存失败',{icon:5});
+			}
+		},'json');
+	}
+</script>
+{/block}
